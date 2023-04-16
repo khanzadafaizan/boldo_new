@@ -8,11 +8,15 @@ body {
 .header {
   background: #65E4A3;
   height: 473px;
-  width: 1400px;
   margin: 0 auto;
 
 }
 
+.boldo-container-main{
+  margin: 0 auto;
+  width: 1200px;
+
+}
 
 .boldo-nav {
   display: flex;
