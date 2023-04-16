@@ -4,7 +4,7 @@ body {
   font-family: Manrope, Arial;
 }
 
-  
+
 .header {
   background: #65E4A3;
   height: 473px;
@@ -12,7 +12,7 @@ body {
 
 }
 
-.boldo-container-main{
+.boldo-container-main {
   margin: 0 auto;
   width: 1200px;
 
@@ -426,49 +426,51 @@ body {
 }
 
 
-.footer{
+.footer {
   width: 1400px;
   height: 474px;
   display: flex;
   justify-content: space-between;
 }
-.footer-boldo{
+
+.footer-boldo {
   width: 300px;
   margin-top: 115px;
   margin-left: 100px;
 }
 
-.footer-boldo img{
+.footer-boldo img {
   padding-bottom: 20px;
 }
 
-.footer-boldo p{
+.footer-boldo p {
   line-height: 28px;
   padding-bottom: 45px;
 
 }
 
-.footer-landind-table{
-  height:100px ;
+.footer-landind-table {
+  height: 100px;
   margin-top: 115px;
   margin-right: 100px;
   font-size: 20px;
 }
-th{
+
+th {
   padding-right: 140px;
   font-weight: bold;
- padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
-td{
- padding-right:60px;
- padding-bottom: 30px;
+td {
+  padding-right: 60px;
+  padding-bottom: 30px;
 }
 
-.hiring{
+.hiring {
   font-size: 14px;
-  font-weight: bold ;
-  background-color: #65E4A3 ;
+  font-weight: bold;
+  background-color: #65E4A3;
   border-radius: 25px;
   padding: 5px 20px;
   margin-left: 10px;
