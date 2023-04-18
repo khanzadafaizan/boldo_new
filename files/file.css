@@ -4,18 +4,15 @@ body {
   font-family: Manrope, Arial;
 }
 
-
 .header {
   background: #65E4A3;
   height: 473px;
   margin: 0 auto;
-
 }
 
 .boldo-container-main {
   margin: 0 auto;
   width: 1200px;
-
 }
 
 .boldo-nav {
@@ -93,7 +90,6 @@ body {
 
 .description-left {
   width: 700px;
-
 }
 
 .description-left p {
@@ -107,7 +103,6 @@ body {
 
 .description-right {
   width: 550px;
-
 }
 
 .description-right p {
@@ -121,7 +116,7 @@ body {
 
 .number-section-container {
   width: 1000px;
-  height: 492px;
+  height: 592px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -129,11 +124,11 @@ body {
 }
 
 .num-heading {
-  margin-top: 50px;
+  margin-top: 100px;
   font-weight: 600;
   font-size: 18px;
-  line-height: 28px;
   margin-bottom: 25px;
+  color: #0A2640;
 }
 
 .Handshake-section {
@@ -141,40 +136,35 @@ body {
   font-weight: 600;
   font-size: 48px;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  line-height: 80px;
+  color: #0A2640;
 }
 
 .cool-feature-box {
   display: flex;
-  gap: 100px;
+  justify-content: space-between;
+  width: 1000px;
 }
 
-.cool-feature-box p {
-  font-weight: 600;
+.number-section-no {
   font-size: 100px;
-  margin-top: 40px;
+  font-weight: 700;
+  color: #0A2640;
   margin-bottom: 0;
-  color: #0A2640;
-}
-
-.cool-frature-title {
-  display: flex;
-  gap: 180px;
-}
-
-.cool-frature-title p {
   margin-top: 0;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  color: #0A2640;
+}
 
+.number-section-cool {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0A2640;
+  margin-top: 0;
 }
 
 .story-section-container {
   background-color: #0A2640;
   color: #fff;
-  width: 1400px;
   margin: 0 auto;
 }
 
@@ -307,12 +297,10 @@ body {
   margin-left: 170px;
 }
 
-
 .our-blog-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1400px;
   height: 1093px;
   margin: 0 auto;
   background-color: #0A2640;
@@ -340,29 +328,41 @@ body {
   margin-top: 0;
 }
 
-.our-section-paragraph {
+.our-section-heading-paragraph {
   display: flex;
-  flex-direction: row;
-  gap: 50px;
-  align-items: center;
-}
-
-.our-section-paragraph h1 {
-  font-size: 50px;
-  font-weight: 400;
-  color: #fff;
-}
-
-.our-section-paragraph h1 span {
-  color: #65E4A3;
+  justify-content: space-between;
+  width: 1000px;
 }
 
 .conversion-angel {
-  width: 500px;
-  font-size: 20px;
+  width: 1200px;
+  height: 800px;
+  font-size: 26px;
   color: #fff;
-  line-height: 28px;
-  padding-top: 40px;
+  margin-top: 0;
+}
+
+.conversion-angel h1 {
+  margin-top: 100px;
+  padding-bottom: 10px;
+}
+
+.conversion-angel h1 span {
+  color: #65E4A3;
+}
+
+.our-section-paragraph {
+  width: 1000px;
+  height: 800px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 0;
+}
+
+.our-section-paragraph p {
+  margin-top: 100px;
+
 }
 
 .emil-form-container {
@@ -370,7 +370,6 @@ body {
   height: 949px;
   margin: 0 auto;
   margin-top: 150px;
-
 }
 
 .enterprise {
@@ -386,7 +385,9 @@ body {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
-
+  background-image: url(../pictures/ellipse.png);
+ background-repeat: no-repeat;
+background-position: top right;
 }
 
 .enterprise h1 {
@@ -422,9 +423,7 @@ body {
   border-radius: 240px;
   text-align: left;
   color: #0A2640;
-
 }
-
 
 .footer {
   width: 1400px;
@@ -446,7 +445,6 @@ body {
 .footer-boldo p {
   line-height: 28px;
   padding-bottom: 45px;
-
 }
 
 .footer-landind-table {
